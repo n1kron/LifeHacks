@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5E2F87FACD6FDF7C128453 /* Pods_LifeHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFCD43937B86AF703D42C56 /* Pods_LifeHacks.framework */; };
+		990011972142D6E9004A713C /* LifeHackDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990011962142D6E9004A713C /* LifeHackDetail.swift */; };
+		99165F1A214125E700B5E71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F19214125E700B5E71D /* AppDelegate.swift */; };
+		99165F1F214125E700B5E71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99165F1D214125E700B5E71D /* Main.storyboard */; };
+		99165F21214125E800B5E71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99165F20214125E800B5E71D /* Assets.xcassets */; };
+		99165F24214125E800B5E71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99165F22214125E800B5E71D /* LaunchScreen.storyboard */; };
+		99165F2F214125E800B5E71D /* LifeHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F2E214125E800B5E71D /* LifeHacksTests.swift */; };
+		99165F3A214125E800B5E71D /* LifeHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F39214125E800B5E71D /* LifeHacksUITests.swift */; };
+		99165F4C214126C500B5E71D /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99165F4B214126C500B5E71D /* Kingfisher.framework */; };
+		99165F4E214126C800B5E71D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99165F4D214126C800B5E71D /* Alamofire.framework */; };
+		99165F502141300700B5E71D /* LifeHack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F4F2141300700B5E71D /* LifeHack.swift */; };
+		99165F522141315800B5E71D /* LifeHacksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F512141315800B5E71D /* LifeHacksData.swift */; };
+		99C0C04D2145E592000AF5BC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C04C2145E592000AF5BC /* CalendarViewController.swift */; };
+		99C0C04F2145E5A1000AF5BC /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */; };
+		99C0C0512145E5AF000AF5BC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */; };
+		99C0C05421469FF9000AF5BC /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C05321469FF9000AF5BC /* Cells.swift */; };
+		99C0C0572146CBD2000AF5BC /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C0562146CBD2000AF5BC /* Consts.swift */; };
+		99C0C05B2146CCA9000AF5BC /* DetailHackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C05A2146CCA9000AF5BC /* DetailHackViewController.swift */; };
+		99C0C05D2146DA32000AF5BC /* LifeHackDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C05C2146DA32000AF5BC /* LifeHackDetailData.swift */; };
+		99C20EAF21496426002E7F95 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C20EAE21496426002E7F95 /* OnboardingViewController.swift */; };
+		99C20EB121496C77002E7F95 /* NewHacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C20EB021496C77002E7F95 /* NewHacksViewController.swift */; };
+		99C20EB321496E16002E7F95 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C20EB221496E16002E7F95 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99165F2B214125E800B5E71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99165F0E214125E600B5E71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99165F15214125E700B5E71D;
+			remoteInfo = LifeHacks;
+		};
+		99165F36214125E800B5E71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99165F0E214125E600B5E71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99165F15214125E700B5E71D;
+			remoteInfo = LifeHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26EF79DEBDFFA71A866BADC0 /* Pods-LifeHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeHacks/Pods-LifeHacks.release.xcconfig"; sourceTree = "<group>"; };
+		746DCA5AB65E999A12FFDF6C /* Pods-LifeHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeHacks/Pods-LifeHacks.debug.xcconfig"; sourceTree = "<group>"; };
+		7EFCD43937B86AF703D42C56 /* Pods_LifeHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990011962142D6E9004A713C /* LifeHackDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHackDetail.swift; sourceTree = "<group>"; };
+		99165F16214125E700B5E71D /* LifeHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99165F19214125E700B5E71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99165F1E214125E700B5E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99165F20214125E800B5E71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99165F23214125E800B5E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99165F25214125E800B5E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99165F2A214125E800B5E71D /* LifeHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99165F2E214125E800B5E71D /* LifeHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksTests.swift; sourceTree = "<group>"; };
+		99165F30214125E800B5E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99165F35214125E800B5E71D /* LifeHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99165F39214125E800B5E71D /* LifeHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksUITests.swift; sourceTree = "<group>"; };
+		99165F3B214125E800B5E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99165F4B214126C500B5E71D /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99165F4D214126C800B5E71D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99165F4F2141300700B5E71D /* LifeHack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHack.swift; sourceTree = "<group>"; };
+		99165F512141315800B5E71D /* LifeHacksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksData.swift; sourceTree = "<group>"; };
+		99C0C04C2145E592000AF5BC /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		99C0C05321469FF9000AF5BC /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		99C0C0562146CBD2000AF5BC /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		99C0C05A2146CCA9000AF5BC /* DetailHackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHackViewController.swift; sourceTree = "<group>"; };
+		99C0C05C2146DA32000AF5BC /* LifeHackDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHackDetailData.swift; sourceTree = "<group>"; };
+		99C20EAE21496426002E7F95 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		99C20EB021496C77002E7F95 /* NewHacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHacksViewController.swift; sourceTree = "<group>"; };
+		99C20EB221496E16002E7F95 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99165F13214125E700B5E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99165F4E214126C800B5E71D /* Alamofire.framework in Frameworks */,
+				99165F4C214126C500B5E71D /* Kingfisher.framework in Frameworks */,
+				2A5E2F87FACD6FDF7C128453 /* Pods_LifeHacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99165F27214125E800B5E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99165F32214125E800B5E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C68DDBDFFD97CFF74F279F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99165F4D214126C800B5E71D /* Alamofire.framework */,
+				99165F4B214126C500B5E71D /* Kingfisher.framework */,
+				7EFCD43937B86AF703D42C56 /* Pods_LifeHacks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96AFB479509BD9AB967BE3CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				746DCA5AB65E999A12FFDF6C /* Pods-LifeHacks.debug.xcconfig */,
+				26EF79DEBDFFA71A866BADC0 /* Pods-LifeHacks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99165F0D214125E600B5E71D = {
+			isa = PBXGroup;
+			children = (
+				99165F18214125E700B5E71D /* LifeHacks */,
+				99165F2D214125E800B5E71D /* LifeHacksTests */,
+				99165F38214125E800B5E71D /* LifeHacksUITests */,
+				99165F17214125E700B5E71D /* Products */,
+				96AFB479509BD9AB967BE3CE /* Pods */,
+				6C68DDBDFFD97CFF74F279F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99165F17214125E700B5E71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99165F16214125E700B5E71D /* LifeHacks.app */,
+				99165F2A214125E800B5E71D /* LifeHacksTests.xctest */,
+				99165F35214125E800B5E71D /* LifeHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99165F18214125E700B5E71D /* LifeHacks */ = {
+			isa = PBXGroup;
+			children = (
+				99165F19214125E700B5E71D /* AppDelegate.swift */,
+				99165F25214125E800B5E71D /* Info.plist */,
+				99165F4A2141260800B5E71D /* Model */,
+				99165F492141260000B5E71D /* Services */,
+				99165F48214125F700B5E71D /* UI */,
+				99165F47214125F000B5E71D /* Resources */,
+			);
+			path = LifeHacks;
+			sourceTree = "<group>";
+		};
+		99165F2D214125E800B5E71D /* LifeHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				99165F2E214125E800B5E71D /* LifeHacksTests.swift */,
+				99165F30214125E800B5E71D /* Info.plist */,
+			);
+			path = LifeHacksTests;
+			sourceTree = "<group>";
+		};
+		99165F38214125E800B5E71D /* LifeHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99165F39214125E800B5E71D /* LifeHacksUITests.swift */,
+				99165F3B214125E800B5E71D /* Info.plist */,
+			);
+			path = LifeHacksUITests;
+			sourceTree = "<group>";
+		};
+		99165F47214125F000B5E71D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99165F1D214125E700B5E71D /* Main.storyboard */,
+				99165F20214125E800B5E71D /* Assets.xcassets */,
+				99165F22214125E800B5E71D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99165F48214125F700B5E71D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				99C0C05221469FEC000AF5BC /* View */,
+				99C0C0552146A000000AF5BC /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		99165F492141260000B5E71D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				99C0C0562146CBD2000AF5BC /* Consts.swift */,
+				99C20EB221496E16002E7F95 /* Extensions.swift */,
+				99C0C05E2146DA37000AF5BC /* DataProviders */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99165F4A2141260800B5E71D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99165F4F2141300700B5E71D /* LifeHack.swift */,
+				990011962142D6E9004A713C /* LifeHackDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99C0C05221469FEC000AF5BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C0C05321469FF9000AF5BC /* Cells.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C0C0552146A000000AF5BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99C0C04C2145E592000AF5BC /* CalendarViewController.swift */,
+				99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */,
+				99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */,
+				99C0C05A2146CCA9000AF5BC /* DetailHackViewController.swift */,
+				99C20EAE21496426002E7F95 /* OnboardingViewController.swift */,
+				99C20EB021496C77002E7F95 /* NewHacksViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		99C0C05E2146DA37000AF5BC /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				99165F512141315800B5E71D /* LifeHacksData.swift */,
+				99C0C05C2146DA32000AF5BC /* LifeHackDetailData.swift */,
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99165F15214125E700B5E71D /* LifeHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99165F3E214125E800B5E71D /* Build configuration list for PBXNativeTarget "LifeHacks" */;
+			buildPhases = (
+				F5CFC7D495D8D8398BDB04CA /* [CP] Check Pods Manifest.lock */,
+				99165F12214125E700B5E71D /* Sources */,
+				99165F13214125E700B5E71D /* Frameworks */,
+				99165F14214125E700B5E71D /* Resources */,
+				1DE1836530B68C58F45072EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeHacks;
+			productName = LifeHacks;
+			productReference = 99165F16214125E700B5E71D /* LifeHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99165F29214125E800B5E71D /* LifeHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99165F41214125E800B5E71D /* Build configuration list for PBXNativeTarget "LifeHacksTests" */;
+			buildPhases = (
+				99165F26214125E800B5E71D /* Sources */,
+				99165F27214125E800B5E71D /* Frameworks */,
+				99165F28214125E800B5E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99165F2C214125E800B5E71D /* PBXTargetDependency */,
+			);
+			name = LifeHacksTests;
+			productName = LifeHacksTests;
+			productReference = 99165F2A214125E800B5E71D /* LifeHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99165F34214125E800B5E71D /* LifeHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99165F44214125E800B5E71D /* Build configuration list for PBXNativeTarget "LifeHacksUITests" */;
+			buildPhases = (
+				99165F31214125E800B5E71D /* Sources */,
+				99165F32214125E800B5E71D /* Frameworks */,
+				99165F33214125E800B5E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99165F37214125E800B5E71D /* PBXTargetDependency */,
+			);
+			name = LifeHacksUITests;
+			productName = LifeHacksUITests;
+			productReference = 99165F35214125E800B5E71D /* LifeHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99165F0E214125E600B5E71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = " Kostantin Zarubin";
+				TargetAttributes = {
+					99165F15214125E700B5E71D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					99165F29214125E800B5E71D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99165F15214125E700B5E71D;
+					};
+					99165F34214125E800B5E71D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99165F15214125E700B5E71D;
+					};
+				};
+			};
+			buildConfigurationList = 99165F11214125E600B5E71D /* Build configuration list for PBXProject "LifeHacks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99165F0D214125E600B5E71D;
+			productRefGroup = 99165F17214125E700B5E71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99165F15214125E700B5E71D /* LifeHacks */,
+				99165F29214125E800B5E71D /* LifeHacksTests */,
+				99165F34214125E800B5E71D /* LifeHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99165F14214125E700B5E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99165F24214125E800B5E71D /* LaunchScreen.storyboard in Resources */,
+				99165F21214125E800B5E71D /* Assets.xcassets in Resources */,
+				99165F1F214125E700B5E71D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99165F28214125E800B5E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99165F33214125E800B5E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE1836530B68C58F45072EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LifeHacks/Pods-LifeHacks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeHacks/Pods-LifeHacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CFC7D495D8D8398BDB04CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeHacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99165F12214125E700B5E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0C04D2145E592000AF5BC /* CalendarViewController.swift in Sources */,
+				99C0C05421469FF9000AF5BC /* Cells.swift in Sources */,
+				99165F502141300700B5E71D /* LifeHack.swift in Sources */,
+				99C0C04F2145E5A1000AF5BC /* FavoriteViewController.swift in Sources */,
+				990011972142D6E9004A713C /* LifeHackDetail.swift in Sources */,
+				99165F522141315800B5E71D /* LifeHacksData.swift in Sources */,
+				99C0C05D2146DA32000AF5BC /* LifeHackDetailData.swift in Sources */,
+				99C20EAF21496426002E7F95 /* OnboardingViewController.swift in Sources */,
+				99C0C05B2146CCA9000AF5BC /* DetailHackViewController.swift in Sources */,
+				99165F1A214125E700B5E71D /* AppDelegate.swift in Sources */,
+				99C0C0572146CBD2000AF5BC /* Consts.swift in Sources */,
+				99C0C0512145E5AF000AF5BC /* SettingsViewController.swift in Sources */,
+				99C20EB121496C77002E7F95 /* NewHacksViewController.swift in Sources */,
+				99C20EB321496E16002E7F95 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99165F26214125E800B5E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99165F2F214125E800B5E71D /* LifeHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99165F31214125E800B5E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99165F3A214125E800B5E71D /* LifeHacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99165F2C214125E800B5E71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99165F15214125E700B5E71D /* LifeHacks */;
+			targetProxy = 99165F2B214125E800B5E71D /* PBXContainerItemProxy */;
+		};
+		99165F37214125E800B5E71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99165F15214125E700B5E71D /* LifeHacks */;
+			targetProxy = 99165F36214125E800B5E71D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99165F1D214125E700B5E71D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99165F1E214125E700B5E71D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99165F22214125E800B5E71D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99165F23214125E800B5E71D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99165F3C214125E800B5E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99165F3D214125E800B5E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99165F3F214125E800B5E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746DCA5AB65E999A12FFDF6C /* Pods-LifeHacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C8ZLNKV2V;
+				INFOPLIST_FILE = LifeHacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.LifeHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99165F40214125E800B5E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EF79DEBDFFA71A866BADC0 /* Pods-LifeHacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C8ZLNKV2V;
+				INFOPLIST_FILE = LifeHacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.LifeHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99165F42214125E800B5E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C8ZLNKV2V;
+				INFOPLIST_FILE = LifeHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.LifeHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeHacks.app/LifeHacks";
+			};
+			name = Debug;
+		};
+		99165F43214125E800B5E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C8ZLNKV2V;
+				INFOPLIST_FILE = LifeHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.LifeHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeHacks.app/LifeHacks";
+			};
+			name = Release;
+		};
+		99165F45214125E800B5E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C8ZLNKV2V;
+				INFOPLIST_FILE = LifeHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.LifeHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeHacks;
+			};
+			name = Debug;
+		};
+		99165F46214125E800B5E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C8ZLNKV2V;
+				INFOPLIST_FILE = LifeHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.LifeHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeHacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99165F11214125E600B5E71D /* Build configuration list for PBXProject "LifeHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99165F3C214125E800B5E71D /* Debug */,
+				99165F3D214125E800B5E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99165F3E214125E800B5E71D /* Build configuration list for PBXNativeTarget "LifeHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99165F3F214125E800B5E71D /* Debug */,
+				99165F40214125E800B5E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99165F41214125E800B5E71D /* Build configuration list for PBXNativeTarget "LifeHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99165F42214125E800B5E71D /* Debug */,
+				99165F43214125E800B5E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99165F44214125E800B5E71D /* Build configuration list for PBXNativeTarget "LifeHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99165F45214125E800B5E71D /* Debug */,
+				99165F46214125E800B5E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99165F0E214125E600B5E71D /* Project object */;
+}
