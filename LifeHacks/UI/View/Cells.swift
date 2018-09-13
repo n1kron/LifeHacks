@@ -34,12 +34,25 @@ class HackTableViewCell: UITableViewCell {
 }
 
 class DetailHackTableViewCell: UITableViewCell {
-    @IBOutlet weak var hackImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var imageStackView: UIStackView!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        hackImageView.layer.cornerRadius = 8.0
+    func removeImages() {
+        for image in imageStackView.arrangedSubviews {
+            imageStackView.removeArrangedSubview(image)
+            image.removeFromSuperview()
+        }
+    }
+    
+    func addImage(image: String) {
+        let imageView = UIImageView()
+        imageView.layer.cornerRadius = 8.0
+        imageView.clipsToBounds = true
+       // imageView.frame.size = CGSize(width: UIScreen.main.bounds.size.width * 0.88, height: UIScreen.main.bounds.size.height * 0.4)
+        imageView.kf.setImage(with: URL(string: image), completionHandler: { [weak self] (image, error, cacheType, imageUrl) in
+            self?.imageStackView.addArrangedSubview(imageView)
+            self?.imageStackView.layoutIfNeeded()
+        })
     }
 }
 

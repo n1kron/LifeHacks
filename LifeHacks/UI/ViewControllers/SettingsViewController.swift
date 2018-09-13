@@ -23,7 +23,7 @@ class SettingsViewController: UIViewController {
         if #available( iOS 10.3,*){
             SKStoreReviewController.requestReview()
         } else {
-            UIApplication.shared.open(URL(string: "")!, options: [:], completionHandler: nil) // update this
+            UIApplication.shared.open(URL(string: "https://itunes.apple.com/us/app/life-hacks/id1436207860?l=ru&ls=1&mt=8")!, options: [:], completionHandler: nil) // update this
         }
     }
     

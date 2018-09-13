@@ -48,11 +48,12 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
         }
             
         else {
-            let content = LifeHacksData.shared.lifeHacksList.first(where: {$0.id == Consts.silverPlace.all[indexPath.row]})
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SilverCollectionViewCell", for: indexPath) as! SilverCollectionViewCell
-            cell.titleLabel.text = content?.title
-            cell.hackImageView.kf.setImage(with: URL(string: (content?.image)!), completionHandler: { (image, error, cacheType, imageUrl) in
-            })
+            if let content = LifeHacksData.shared.lifeHacksList.first(where: {$0.id == Consts.silverPlace.all[indexPath.row]}) {
+                cell.titleLabel.text = content.title
+                cell.hackImageView.kf.setImage(with: URL(string: content.image), completionHandler: { (image, error, cacheType, imageUrl) in
+                })
+            }
             return cell
         }
     }

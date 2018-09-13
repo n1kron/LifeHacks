@@ -19,6 +19,7 @@
 		99165F4E214126C800B5E71D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99165F4D214126C800B5E71D /* Alamofire.framework */; };
 		99165F502141300700B5E71D /* LifeHack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F4F2141300700B5E71D /* LifeHack.swift */; };
 		99165F522141315800B5E71D /* LifeHacksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F512141315800B5E71D /* LifeHacksData.swift */; };
+		992D8A81214AD4060059628E /* Utiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D8A80214AD4060059628E /* Utiles.swift */; };
 		99C0C04D2145E592000AF5BC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C04C2145E592000AF5BC /* CalendarViewController.swift */; };
 		99C0C04F2145E5A1000AF5BC /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */; };
 		99C0C0512145E5AF000AF5BC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */; };
@@ -69,6 +70,7 @@
 		99165F4D214126C800B5E71D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99165F4F2141300700B5E71D /* LifeHack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHack.swift; sourceTree = "<group>"; };
 		99165F512141315800B5E71D /* LifeHacksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksData.swift; sourceTree = "<group>"; };
+		992D8A80214AD4060059628E /* Utiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utiles.swift; sourceTree = "<group>"; };
 		99C0C04C2145E592000AF5BC /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				99C0C0562146CBD2000AF5BC /* Consts.swift */,
+				992D8A80214AD4060059628E /* Utiles.swift */,
 				99C20EB221496E16002E7F95 /* Extensions.swift */,
 				99C0C05E2146DA37000AF5BC /* DataProviders */,
 			);
@@ -432,6 +435,7 @@
 				99C0C05D2146DA32000AF5BC /* LifeHackDetailData.swift in Sources */,
 				99C20EAF21496426002E7F95 /* OnboardingViewController.swift in Sources */,
 				99C0C05B2146CCA9000AF5BC /* DetailHackViewController.swift in Sources */,
+				992D8A81214AD4060059628E /* Utiles.swift in Sources */,
 				99165F1A214125E700B5E71D /* AppDelegate.swift in Sources */,
 				99C0C0572146CBD2000AF5BC /* Consts.swift in Sources */,
 				99C0C0512145E5AF000AF5BC /* SettingsViewController.swift in Sources */,

@@ -6,7 +6,7 @@
 //  Copyright © 2018  Kostantin Zarubin. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension MutableCollection {
     mutating func shuffle() {

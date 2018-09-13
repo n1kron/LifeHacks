@@ -12,7 +12,7 @@ class Consts {
     static let isIpad: Bool = UIDevice.current.userInterfaceIdiom == .pad
     
     struct goldPlace {
-        static let firstHack = "Replace-Flap-on-Phone-Case"
+        static let firstHack = "Reclaimed-Wall-Map-With-Epoxy-Resin-River-and-Road"
         static let secondHack = "Wooden-Broken-Straight-Sword-DS3"
         static let thirdHack = "Simple-Modern-Writing-Desk"
         
