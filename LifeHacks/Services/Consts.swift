@@ -20,11 +20,11 @@ class Consts {
     }
     
     struct silverPlace {
-        static let firstHack = "Poured-Resin-Coffee-Table"
-        static let secondHack = "Fix-a-Cracked-Bucket"
+        static let firstHack = "Floating-Shelf-With-Mountains"
+        static let secondHack = "How-to-Make-a-Guitar-Pickguard"
         static let thirdHack = "Repair-a-Blender"
-        static let fourthHack = "Make-a-Sign-With-the-Shopbot-Cnc-Router"
-        static let fifthHack = "Childrens-house-Bed-Frame"
+        static let fourthHack = "Wood-Resin-Turtles"
+        static let fifthHack = "Vintage-Biplane-Shelf"
         
         static let all = [firstHack, secondHack, thirdHack, fourthHack, fifthHack]
     }
