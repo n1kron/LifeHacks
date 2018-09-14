@@ -36,6 +36,7 @@ class HackTableViewCell: UITableViewCell {
 class DetailHackTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var imageStackView: UIStackView!
+    let imageHeight: CGFloat = Consts.isIpad ? UIScreen.main.bounds.size.height * 0.43923 : UIScreen.main.bounds.size.height * 0.2463
     
     func removeImages() {
         for image in imageStackView.arrangedSubviews {
@@ -46,9 +47,8 @@ class DetailHackTableViewCell: UITableViewCell {
     
     func addImage(image: String) {
         let imageView = UIImageView()
-        imageView.layer.cornerRadius = 8.0
-        imageView.clipsToBounds = true
-       // imageView.frame.size = CGSize(width: UIScreen.main.bounds.size.width * 0.88, height: UIScreen.main.bounds.size.height * 0.4)
+        imageView.contentMode = .scaleAspectFit
+        imageView.heightAnchor.constraint(equalToConstant: imageHeight).isActive = true
         imageView.kf.setImage(with: URL(string: image), completionHandler: { [weak self] (image, error, cacheType, imageUrl) in
             self?.imageStackView.addArrangedSubview(imageView)
             self?.imageStackView.layoutIfNeeded()

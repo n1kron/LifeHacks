@@ -15,6 +15,7 @@ class CalendarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         LifeHacksData.shared.getData()
+        print(UIScreen.main.bounds.size.height)
         NotificationCenter.default.addObserver(forName: Notification.Name("hacks"), object: nil, queue: nil) { [weak self] (notification) in
             self?.lifeHacksTableView.reloadData()
         }
