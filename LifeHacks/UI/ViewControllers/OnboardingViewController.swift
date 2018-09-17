@@ -23,9 +23,10 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
     var coeffTransform : CGFloat = 2.8
     var originTop : CGFloat = -168.5
     var top : CGFloat = 50
-    var textHeaderLabel = ["CHOOSE", "READ", "TRACK"]
-    var textLitleLabel = ["Favorite life hacks", "With a iPhone on the road or on the iPad at home", "For the compilations of our editorial staff"]
-    var textButton = ["NEXT", "NEXT", "START"]
+    
+    let textHeaderLabel = Utiles().getPrefferedLocale() == Locale(identifier: "ru-US") ? ["ВЫБИРАЙТЕ", "ЧИТАЙТЕ", "СЛЕДИТЕ"] : ["CHOOSE", "READ", "TRACK"]
+    let textLitleLabel = Utiles().getPrefferedLocale() == Locale(identifier: "ru-US") ? ["Лайфхаки на любой вкус", "С смартфона в дороге или на планшете дома", "За подборками нашей редакции"] : ["Favorite life hacks", "With a iPhone on the road or on the iPad at home", "For the compilations of our editorial staff"]
+    var textButton = Utiles().getPrefferedLocale() == Locale(identifier: "ru-US") ? ["ДАЛЕЕ", "ДАЛЕЕ", "НАЧАТЬ"] : ["NEXT", "NEXT", "START"]
     
     let countContentViews = 3
     let iphoneImageView = UIImageView(image: UIImage(named: "iphone"))
@@ -33,11 +34,6 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if Locale.current.languageCode! == "ru" {
-            textHeaderLabel = ["ВЫБИРАЙТЕ", "ЧИТАЙТЕ", "СЛЕДИТЕ"]
-            textLitleLabel = ["Лайфхаки на любой вкус", "С смартфона в дороге или на планшете дома", "За подборками нашей редакции"]
-            textButton = ["ДАЛЕЕ", "ДАЛЕЕ", "НАЧАТЬ"]
-        }
        // loadProducts()
        // NotificationCenter.default.addObserver(self, selector: #selector(handleInAppPurchase(notification:)), name: .SubscriptionStatusNotification, object: nil)
         
