@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A5E2F87FACD6FDF7C128453 /* Pods_LifeHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFCD43937B86AF703D42C56 /* Pods_LifeHacks.framework */; };
 		990011972142D6E9004A713C /* LifeHackDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990011962142D6E9004A713C /* LifeHackDetail.swift */; };
 		99165F1A214125E700B5E71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F19214125E700B5E71D /* AppDelegate.swift */; };
 		99165F1F214125E700B5E71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99165F1D214125E700B5E71D /* Main.storyboard */; };
@@ -20,6 +19,7 @@
 		99165F502141300700B5E71D /* LifeHack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F4F2141300700B5E71D /* LifeHack.swift */; };
 		99165F522141315800B5E71D /* LifeHacksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99165F512141315800B5E71D /* LifeHacksData.swift */; };
 		992D8A81214AD4060059628E /* Utiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992D8A80214AD4060059628E /* Utiles.swift */; };
+		992D8A82214BF3F60059628E /* Pods_LifeHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFCD43937B86AF703D42C56 /* Pods_LifeHacks.framework */; };
 		99C0C04D2145E592000AF5BC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C04C2145E592000AF5BC /* CalendarViewController.swift */; };
 		99C0C04F2145E5A1000AF5BC /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */; };
 		99C0C0512145E5AF000AF5BC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */; };
@@ -88,9 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992D8A82214BF3F60059628E /* Pods_LifeHacks.framework in Frameworks */,
 				99165F4E214126C800B5E71D /* Alamofire.framework in Frameworks */,
 				99165F4C214126C500B5E71D /* Kingfisher.framework in Frameworks */,
-				2A5E2F87FACD6FDF7C128453 /* Pods_LifeHacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
