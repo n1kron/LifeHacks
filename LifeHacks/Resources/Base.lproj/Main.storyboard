@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nLI-Bn-uHs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nLI-Bn-uHs">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wda-bd-pMC">
-                                <rect key="frame" x="57" y="386.5" width="262.5" height="185"/>
+                                <rect key="frame" x="56.5" y="386.5" width="262.5" height="185"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inO-dX-rcT">
-                                        <rect key="frame" x="0.0" y="0.0" width="262.5" height="39"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="262.5" height="38.5"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.47843137250000001" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Rate App">
@@ -42,7 +39,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prD-uW-IZg">
-                                        <rect key="frame" x="0.0" y="49" width="262.5" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="48.5" width="262.5" height="39"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.47843137250000001" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Private Policy">
@@ -56,7 +53,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiD-Ka-rQr">
-                                        <rect key="frame" x="0.0" y="97.5" width="262.5" height="39"/>
+                                        <rect key="frame" x="0.0" y="97.5" width="262.5" height="38.5"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.47843137250000001" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Term Of Use">
@@ -70,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kR-kb-qU6">
-                                        <rect key="frame" x="0.0" y="146.5" width="262.5" height="38.5"/>
+                                        <rect key="frame" x="0.0" y="146" width="262.5" height="39"/>
                                         <color key="backgroundColor" red="0.49803921569999998" green="0.47843137250000001" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Subscription Agreement">
@@ -166,7 +163,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="frj-N1-TSz">
-                                                    <rect key="frame" x="169.5" y="13" width="91.5" height="205"/>
+                                                    <rect key="frame" x="169.5" y="33" width="91.5" height="185"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -187,7 +184,6 @@
                                             <constraint firstItem="frj-N1-TSz" firstAttribute="top" secondItem="b9Y-CN-YUN" secondAttribute="topMargin" constant="5" id="UtF-Pf-fsi"/>
                                             <constraint firstItem="a1u-U4-fdh" firstAttribute="leading" secondItem="b9Y-CN-YUN" secondAttribute="leading" constant="10" id="aZe-9Y-2xg"/>
                                             <constraint firstItem="a1u-U4-fdh" firstAttribute="top" secondItem="b9Y-CN-YUN" secondAttribute="top" constant="10" id="dCh-k5-Qvt"/>
-                                            <constraint firstItem="frj-N1-TSz" firstAttribute="centerY" secondItem="b9Y-CN-YUN" secondAttribute="centerY" id="jj3-m1-sWy"/>
                                             <constraint firstItem="frj-N1-TSz" firstAttribute="leading" secondItem="a1u-U4-fdh" secondAttribute="trailing" constant="20" id="xf0-r3-IIs"/>
                                         </constraints>
                                         <connections>
@@ -258,7 +254,7 @@
                                 <rect key="frame" x="0.0" y="316.5" width="375" height="49.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silverPlace" translatesAutoresizingMaskIntoConstraints="NO" id="iF1-IQ-q0N">
-                                        <rect key="frame" x="155.5" y="-7.5" width="64" height="64"/>
+                                        <rect key="frame" x="155.5" y="-7" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="IPE-hU-6aH"/>
                                             <constraint firstAttribute="height" constant="64" id="kzT-id-Rqm"/>
@@ -625,17 +621,254 @@
             </objects>
             <point key="canvasLocation" x="169" y="135"/>
         </scene>
+        <!--Buy Subscription View Controller-->
+        <scene sceneID="sFo-hK-6u8">
+            <objects>
+                <viewController storyboardIdentifier="BuySubscriptionController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="ug4-sU-dkD" customClass="BuySubscriptionViewController" customModule="LifeHacks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YCc-UD-D0K"/>
+                        <viewControllerLayoutGuide type="bottom" id="qW2-Aa-vqT"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="DuQ-Je-re4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R2D-H2-PH1">
+                                <rect key="frame" x="25" y="30" width="325" height="627"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="wud-uM-ggh">
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="627"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WV-aJ-8IN">
+                                        <rect key="frame" x="103.5" y="5" width="118" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="qsI-zy-zMj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                        <state key="normal" title="Restore purchases">
+                                            <color key="titleColor" red="0.47467803720000001" green="0.11839546550000001" blue="0.48583225390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="restoreButtonPressed:" destination="ug4-sU-dkD" eventType="touchUpInside" id="tE4-cs-c6v"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LifeHacks_1" translatesAutoresizingMaskIntoConstraints="NO" id="YK4-fx-hg8">
+                                        <rect key="frame" x="62.5" y="45.5" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="TFx-zN-0Ml">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="200" id="qXa-du-aQa">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                            </constraint>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eeJ-PJ-gEC">
+                                        <rect key="frame" x="0.0" y="216" width="325" height="195"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will get access" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6o-ms-p1C">
+                                        <rect key="frame" x="5" y="221" width="315" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="e5X-fz-cSS">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="20"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="40"/>
+                                        </variation>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="xiB-N9-csx">
+                                        <rect key="frame" x="0.0" y="421" width="325" height="206"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Install the app and start Premium subscription. After that — Premium subscription will cost only $9.99 USD per week.
+
+If you choose to buy Premium subscription, payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.
+
+Terms of use: http://lifehacks.website/tos.html
+Privacy policy: http://lifehacks.website/tos2.html</string>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1f-Oh-hQO">
+                                        <rect key="frame" x="300" y="5" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="DfA-DU-KDu"/>
+                                            <constraint firstAttribute="height" constant="20" id="yrh-lX-0vn"/>
+                                        </constraints>
+                                        <state key="normal" image="crossIcon1"/>
+                                        <connections>
+                                            <action selector="cancelButton:" destination="ug4-sU-dkD" eventType="touchUpInside" id="hi9-bL-q6G"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="☆  to all lifehacks in the application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXg-fc-Tv0">
+                                        <rect key="frame" x="81.5" y="271" width="233.5" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="MSz-Yb-f4k">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="☆  to the newest lifehacks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjd-Fl-sGt">
+                                        <rect key="frame" x="81.5" y="296" width="162.5" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="0MD-H9-jaU">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N82-B3-pLa">
+                                        <rect key="frame" x="315" y="321" width="0.0" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Cw5-Bf-dad">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dg-Db-tkd">
+                                        <rect key="frame" x="50" y="351" width="225" height="50"/>
+                                        <color key="backgroundColor" red="0.89821239829999999" green="0.82424717219999999" blue="0.020796915869999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="KU3-cB-Ekh">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="20"/>
+                                        <state key="normal" title="$9.99 USD per week">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="40"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="buyButtonPressed:" destination="ug4-sU-dkD" eventType="touchUpInside" id="3bL-ae-X6c"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wud-uM-ggh" firstAttribute="leading" secondItem="R2D-H2-PH1" secondAttribute="leading" id="5ML-FQ-yv0"/>
+                                    <constraint firstItem="YK4-fx-hg8" firstAttribute="centerX" secondItem="wud-uM-ggh" secondAttribute="centerX" id="6Pn-3N-M7w"/>
+                                    <constraint firstItem="H6o-ms-p1C" firstAttribute="leading" secondItem="R2D-H2-PH1" secondAttribute="leading" constant="5" id="7Rx-ck-1Uc"/>
+                                    <constraint firstItem="4WV-aJ-8IN" firstAttribute="centerX" secondItem="R2D-H2-PH1" secondAttribute="centerX" id="7cn-Gk-Qly"/>
+                                    <constraint firstAttribute="trailing" secondItem="B1f-Oh-hQO" secondAttribute="trailing" constant="5" id="DTt-YD-t1f"/>
+                                    <constraint firstItem="YK4-fx-hg8" firstAttribute="firstBaseline" secondItem="4WV-aJ-8IN" secondAttribute="baseline" constant="12.5" symbolType="layoutAnchor" id="ExU-1l-G5f"/>
+                                    <constraint firstItem="xiB-N9-csx" firstAttribute="leading" secondItem="R2D-H2-PH1" secondAttribute="leading" id="FNk-mz-yBG"/>
+                                    <constraint firstAttribute="trailing" secondItem="jXg-fc-Tv0" secondAttribute="trailing" constant="10" id="FQA-ZY-wga"/>
+                                    <constraint firstAttribute="trailing" secondItem="H6o-ms-p1C" secondAttribute="trailing" constant="5" id="GFR-ER-So4"/>
+                                    <constraint firstItem="8dg-Db-tkd" firstAttribute="top" secondItem="N82-B3-pLa" secondAttribute="bottom" constant="10" id="HSA-td-JVF"/>
+                                    <constraint firstAttribute="trailing" secondItem="wud-uM-ggh" secondAttribute="trailing" id="LFX-UO-Swi"/>
+                                    <constraint firstAttribute="trailing" secondItem="xiB-N9-csx" secondAttribute="trailing" id="LQl-AS-PGQ"/>
+                                    <constraint firstItem="xiB-N9-csx" firstAttribute="top" secondItem="eeJ-PJ-gEC" secondAttribute="bottom" constant="10" id="Mmw-2h-3t3"/>
+                                    <constraint firstItem="4WV-aJ-8IN" firstAttribute="top" secondItem="B1f-Oh-hQO" secondAttribute="top" id="P5F-TR-SQl"/>
+                                    <constraint firstItem="fjd-Fl-sGt" firstAttribute="top" secondItem="jXg-fc-Tv0" secondAttribute="bottom" constant="5" id="RRe-er-f6v">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="eeJ-PJ-gEC" secondAttribute="trailing" id="RhW-X7-ip2"/>
+                                    <constraint firstItem="N82-B3-pLa" firstAttribute="top" secondItem="fjd-Fl-sGt" secondAttribute="bottom" constant="5" id="UnG-hp-6a4">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                    </constraint>
+                                    <constraint firstItem="8dg-Db-tkd" firstAttribute="bottom" secondItem="eeJ-PJ-gEC" secondAttribute="bottom" constant="-10" id="VhX-o4-oYz"/>
+                                    <constraint firstItem="xiB-N9-csx" firstAttribute="bottom" secondItem="wud-uM-ggh" secondAttribute="bottom" id="cJs-xq-6om"/>
+                                    <constraint firstItem="fjd-Fl-sGt" firstAttribute="centerX" secondItem="wud-uM-ggh" secondAttribute="centerX" id="cKB-Hm-Uwa"/>
+                                    <constraint firstAttribute="trailing" secondItem="8dg-Db-tkd" secondAttribute="trailing" constant="50" id="dzj-Kp-oCr"/>
+                                    <constraint firstAttribute="bottom" secondItem="wud-uM-ggh" secondAttribute="bottom" id="fdX-Id-tKz"/>
+                                    <constraint firstItem="8dg-Db-tkd" firstAttribute="leading" secondItem="R2D-H2-PH1" secondAttribute="leading" constant="50" id="hxA-eG-83K"/>
+                                    <constraint firstItem="B1f-Oh-hQO" firstAttribute="top" secondItem="R2D-H2-PH1" secondAttribute="top" constant="5" id="iIs-jP-xFw"/>
+                                    <constraint firstItem="H6o-ms-p1C" firstAttribute="top" secondItem="eeJ-PJ-gEC" secondAttribute="top" constant="5" id="j4r-Up-N8b"/>
+                                    <constraint firstItem="eeJ-PJ-gEC" firstAttribute="centerY" secondItem="R2D-H2-PH1" secondAttribute="centerY" id="mbV-kK-f3x"/>
+                                    <constraint firstItem="eeJ-PJ-gEC" firstAttribute="leading" secondItem="R2D-H2-PH1" secondAttribute="leading" id="met-Uv-lwB"/>
+                                    <constraint firstItem="wud-uM-ggh" firstAttribute="top" secondItem="R2D-H2-PH1" secondAttribute="top" id="nNK-RN-keZ"/>
+                                    <constraint firstItem="jXg-fc-Tv0" firstAttribute="leading" secondItem="fjd-Fl-sGt" secondAttribute="leading" id="roN-Fo-7tj"/>
+                                    <constraint firstItem="jXg-fc-Tv0" firstAttribute="top" secondItem="H6o-ms-p1C" secondAttribute="bottom" constant="10" id="sh3-mK-fnc"/>
+                                    <constraint firstAttribute="trailing" secondItem="N82-B3-pLa" secondAttribute="trailing" constant="10" id="xaT-ZR-rgI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="R2D-H2-PH1" firstAttribute="top" secondItem="YCc-UD-D0K" secondAttribute="bottom" constant="10" id="Gtu-pC-TmX"/>
+                            <constraint firstItem="qW2-Aa-vqT" firstAttribute="top" secondItem="R2D-H2-PH1" secondAttribute="bottom" constant="10" id="ZC1-6l-mPD"/>
+                            <constraint firstItem="R2D-H2-PH1" firstAttribute="leading" secondItem="DuQ-Je-re4" secondAttribute="leading" constant="25" id="Zfs-r1-1rZ"/>
+                            <constraint firstAttribute="trailing" secondItem="R2D-H2-PH1" secondAttribute="trailing" constant="25" id="uoI-SB-RqM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N4b-N2-3ov"/>
+                    </view>
+                    <connections>
+                        <outlet property="backView" destination="eeJ-PJ-gEC" id="x7x-Vp-rdb"/>
+                        <outlet property="buyButton" destination="8dg-Db-tkd" id="BwV-yd-Fou"/>
+                        <outlet property="cancelButton" destination="B1f-Oh-hQO" id="OU1-wA-yh3"/>
+                        <outlet property="infoTextView" destination="xiB-N9-csx" id="Tbg-SR-Tpw"/>
+                        <outlet property="mainView" destination="R2D-H2-PH1" id="o59-Qt-3o2"/>
+                        <outlet property="restorePurchase" destination="4WV-aJ-8IN" id="Faa-Q0-QS4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gX-dL-m9B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.80000000000001" y="1101.4992503748126"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="LifeHacks_splash" width="360" height="640"/>
-        <image name="calendar" width="32" height="32"/>
-        <image name="goldPlace" width="21" height="21"/>
-        <image name="heart" width="32" height="32"/>
-        <image name="new_icon" width="33" height="33"/>
-        <image name="settings" width="32" height="32"/>
-        <image name="silverPlace" width="21" height="21"/>
+        <image name="LifeHacks_1" width="1024" height="1024"/>
+        <image name="LifeHacks_splash" width="1080" height="1920"/>
+        <image name="bg" width="1242" height="2208"/>
+        <image name="calendar" width="72" height="72"/>
+        <image name="crossIcon1" width="16" height="16"/>
+        <image name="goldPlace" width="48" height="48"/>
+        <image name="heart" width="72" height="72"/>
+        <image name="new_icon" width="75" height="75"/>
+        <image name="settings" width="72" height="72"/>
+        <image name="silverPlace" width="200.34782409667969" height="200.34782409667969"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oQY-k7-v3p"/>
+        <segue reference="n6I-OG-LJT"/>
     </inferredMetricsTieBreakers>
 </document>

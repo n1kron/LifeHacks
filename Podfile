@@ -6,5 +6,10 @@ target 'LifeHacks' do
   use_frameworks!
 pod 'Alamofire'
 pod 'Kingfisher'
-
+pod 'SwiftyJSON'
+pod 'FBSDKLoginKit'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+pod 'YandexMobileMetrica/Dynamic', '3.3.0'
 end

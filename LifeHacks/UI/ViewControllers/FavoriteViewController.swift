@@ -66,9 +66,14 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if collectionView == goldCollectionView {
-            performSegue(withIdentifier: "ShowLifeHack", sender: Consts.goldPlace.all[indexPath.row])
+        if SubscriptionManager.shared.isSubscriptionActive != true {
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            self.present(storyboard.instantiateViewController(withIdentifier: "BuySubscriptionController"), animated: true, completion: nil)
+        } else {
+            if collectionView == goldCollectionView {
+                performSegue(withIdentifier: "ShowLifeHack", sender: Consts.goldPlace.all[indexPath.row])
+            }
+            performSegue(withIdentifier: "ShowLifeHack", sender: Consts.silverPlace.all[indexPath.row])
         }
-        performSegue(withIdentifier: "ShowLifeHack", sender: Consts.silverPlace.all[indexPath.row])
     }
 }

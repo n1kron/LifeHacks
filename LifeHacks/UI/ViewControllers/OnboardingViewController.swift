@@ -110,7 +110,7 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
         let headerLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 30 * multiplier))
         settingsLabel(label: headerLabel, text: textHeaderLabel[number], nameFont: "HelveticaNeue-Bold", size: 27 * multiplier)
         view.addSubview(headerLabel)
-        let litleLabel = UILabel(frame: CGRect(x: 0, y: headerLabel.frame.maxY, width: view.frame.width, height: 30 * multiplier))
+        let litleLabel = UILabel(frame: CGRect(x: 20, y: headerLabel.frame.maxY, width: view.frame.width - 40, height: 30 * multiplier))
         settingsLabel(label: litleLabel, text: textLitleLabel[number], nameFont: "HelveticaNeue-Medium", size: 17 * multiplier)
         view.addSubview(litleLabel)
         var button = UIButton()
