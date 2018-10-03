@@ -857,16 +857,16 @@ Privacy policy: http://lifehacks.website/tos2.html</string>
         </scene>
     </scenes>
     <resources>
-        <image name="LifeHacks_1" width="1024" height="1024"/>
-        <image name="LifeHacks_splash" width="1080" height="1920"/>
-        <image name="bg" width="1242" height="2208"/>
-        <image name="calendar" width="72" height="72"/>
-        <image name="crossIcon1" width="16" height="16"/>
-        <image name="goldPlace" width="48" height="48"/>
-        <image name="heart" width="72" height="72"/>
-        <image name="new_icon" width="75" height="75"/>
-        <image name="settings" width="72" height="72"/>
-        <image name="silverPlace" width="200.34782409667969" height="200.34782409667969"/>
+        <image name="LifeHacks_1" width="341" height="341"/>
+        <image name="LifeHacks_splash" width="360" height="640"/>
+        <image name="bg" width="414" height="736"/>
+        <image name="calendar" width="32" height="32"/>
+        <image name="crossIcon1" width="20" height="20"/>
+        <image name="goldPlace" width="21" height="21"/>
+        <image name="heart" width="32" height="32"/>
+        <image name="new_icon" width="33" height="33"/>
+        <image name="settings" width="32" height="32"/>
+        <image name="silverPlace" width="21" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="n6I-OG-LJT"/>

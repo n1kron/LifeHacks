@@ -34,8 +34,8 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // loadProducts()
-       // NotificationCenter.default.addObserver(self, selector: #selector(handleInAppPurchase(notification:)), name: .SubscriptionStatusNotification, object: nil)
+        loadProducts()
+        NotificationCenter.default.addObserver(self, selector: #selector(handleInAppPurchase(notification:)), name: .SubscriptionStatusNotification, object: nil)
         
         contentScrollView.frame.size = CGSize(width: view.frame.width, height: contentScrollView.frame.height)
         if UIDevice.current.userInterfaceIdiom == .pad {
@@ -56,12 +56,12 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
         addScrollView()
     }
     
-//    func loadProducts() {
-//        let productIds = [SubscriptionManager.weekProductID]
-//        SubscriptionManager.shared.requestProducts(productIds) { products in
-//            self.purchaseProducts = products
-//        }
-//    }
+    func loadProducts() {
+        let productIds = [SubscriptionManager.weekProductID]
+        SubscriptionManager.shared.requestProducts(productIds) { products in
+            self.purchaseProducts = products
+        }
+    }
     
     @objc func handleInAppPurchase(notification: Notification) {
         guard let result = notification.object as? Bool else  { return }
@@ -145,14 +145,14 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
                                    originY: originTop,
                                    contentOffsetX: 0)
         } else {
-            //if UserDefaults.standard.object(forKey: "check") as! Bool {
-               // SubscriptionManager.shared.buyProduct(id: SubscriptionManager.weekProductID)
-           // } else {
+            if UserDefaults.standard.object(forKey: "check") as! Bool {
+                SubscriptionManager.shared.buyProduct(id: SubscriptionManager.weekProductID)
+            } else {
                 let userDefaults = UserDefaults.standard
                 userDefaults.set(1, forKey: "OnOnboarding")
                 userDefaults.synchronize()
                 performSegue(withIdentifier: "GoApp", sender: nil)
-           // }
+            }
         }
     }
     
