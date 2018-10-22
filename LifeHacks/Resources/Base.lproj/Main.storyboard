@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nLI-Bn-uHs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BDf-FV-CYP">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -563,64 +563,6 @@
             </objects>
             <point key="canvasLocation" x="970" y="136"/>
         </scene>
-        <!--Onboarding View Controller-->
-        <scene sceneID="Vdj-bo-TdK">
-            <objects>
-                <viewController id="nLI-Bn-uHs" customClass="OnboardingViewController" customModule="LifeHacks" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vZL-iq-BGs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LifeHacks_splash" translatesAutoresizingMaskIntoConstraints="NO" id="dmE-Yl-Ke3">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyY-mo-75h">
-                                <rect key="frame" x="0.0" y="400" width="375" height="267"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outlet property="delegate" destination="nLI-Bn-uHs" id="Dtp-3B-zYL"/>
-                                    <outletCollection property="gestureRecognizers" destination="s19-r0-dLY" appends="YES" id="YP7-1y-cxw"/>
-                                </connections>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="dmE-Yl-Ke3" firstAttribute="trailing" secondItem="O2P-vp-I2s" secondAttribute="trailing" id="Evf-Ue-70i"/>
-                            <constraint firstItem="VyY-mo-75h" firstAttribute="height" secondItem="vZL-iq-BGs" secondAttribute="height" multiplier="1:2.5" id="Kmc-Rt-HOf"/>
-                            <constraint firstItem="dmE-Yl-Ke3" firstAttribute="leading" secondItem="O2P-vp-I2s" secondAttribute="leading" id="LI4-3Y-caw"/>
-                            <constraint firstAttribute="bottom" secondItem="VyY-mo-75h" secondAttribute="bottom" id="ZHq-Xt-KWU"/>
-                            <constraint firstAttribute="bottom" secondItem="dmE-Yl-Ke3" secondAttribute="bottom" id="hBV-Oh-t9v"/>
-                            <constraint firstItem="VyY-mo-75h" firstAttribute="leading" secondItem="vZL-iq-BGs" secondAttribute="leading" id="j0S-Mn-oz7"/>
-                            <constraint firstItem="dmE-Yl-Ke3" firstAttribute="top" secondItem="vZL-iq-BGs" secondAttribute="top" id="rsA-7L-m2e"/>
-                            <constraint firstAttribute="trailing" secondItem="VyY-mo-75h" secondAttribute="trailing" id="xb9-p3-0ho"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="O2P-vp-I2s"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="mZC-Zs-zI4" appends="YES" id="Vy4-pj-chx"/>
-                        </connections>
-                    </view>
-                    <connections>
-                        <outlet property="backgroundImageView" destination="dmE-Yl-Ke3" id="MkK-eL-xRt"/>
-                        <outlet property="contentScrollView" destination="VyY-mo-75h" id="EDU-Sn-u5E"/>
-                        <segue destination="QlR-Zw-Kxr" kind="presentation" identifier="GoApp" id="crU-ox-ShL"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="frz-ny-mk7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="mZC-Zs-zI4">
-                    <connections>
-                        <action selector="handlePanWithRecognizer:" destination="nLI-Bn-uHs" id="DAC-ne-aC1"/>
-                    </connections>
-                </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="s19-r0-dLY">
-                    <connections>
-                        <action selector="handlePanWithRecognizer:" destination="nLI-Bn-uHs" id="Qsk-pp-D9h"/>
-                    </connections>
-                </panGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="169" y="135"/>
-        </scene>
         <!--Buy Subscription View Controller-->
         <scene sceneID="sFo-hK-6u8">
             <objects>
@@ -765,13 +707,13 @@ Privacy policy: http://lifehacks.website/tos2.html</string>
                                     </label>
                                     <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dg-Db-tkd">
                                         <rect key="frame" x="50" y="351" width="225" height="50"/>
-                                        <color key="backgroundColor" red="0.89821239829999999" green="0.82424717219999999" blue="0.020796915869999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.14789136515999726" green="0.34829727137494765" blue="0.72023421646979857" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="KU3-cB-Ekh">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="70"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="17"/>
                                         <state key="normal" title="$9.99 USD per week">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -855,18 +797,76 @@ Privacy policy: http://lifehacks.website/tos2.html</string>
             </objects>
             <point key="canvasLocation" x="168.80000000000001" y="1101.4992503748126"/>
         </scene>
+        <!--Onboarding View Controller-->
+        <scene sceneID="x8x-YC-rQs">
+            <objects>
+                <viewController id="BDf-FV-CYP" customClass="OnboardingViewController" customModule="LifeHacks" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CFS-rj-IUT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8Y4-qg-4PM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-ur-C1D">
+                                <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.069777125630000006" blue="0.069777125630000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="842-El-9Iy" appends="YES" id="3DU-mR-Rl7"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="xvA-ur-C1D" firstAttribute="height" secondItem="CFS-rj-IUT" secondAttribute="height" multiplier="1:2" id="8Pp-lI-SDt"/>
+                            <constraint firstAttribute="bottom" secondItem="xvA-ur-C1D" secondAttribute="bottom" id="JsL-R4-iGQ"/>
+                            <constraint firstItem="8Y4-qg-4PM" firstAttribute="top" secondItem="CFS-rj-IUT" secondAttribute="top" id="RYX-On-gUN"/>
+                            <constraint firstItem="xvA-ur-C1D" firstAttribute="leading" secondItem="CFS-rj-IUT" secondAttribute="leading" id="VWx-pl-gWt"/>
+                            <constraint firstItem="8Y4-qg-4PM" firstAttribute="trailing" secondItem="vf0-PQ-8B1" secondAttribute="trailing" id="bci-Bt-7rf"/>
+                            <constraint firstAttribute="trailing" secondItem="xvA-ur-C1D" secondAttribute="trailing" id="erH-Ke-Sko"/>
+                            <constraint firstAttribute="bottom" secondItem="8Y4-qg-4PM" secondAttribute="bottom" id="r7j-1E-YJ5"/>
+                            <constraint firstItem="8Y4-qg-4PM" firstAttribute="leading" secondItem="vf0-PQ-8B1" secondAttribute="leading" id="u4d-0R-2GZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vf0-PQ-8B1"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8a8-ai-U79" appends="YES" id="lSs-4F-rF1"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="8Y4-qg-4PM" id="mtX-LV-VTK"/>
+                        <outlet property="contentScrollView" destination="xvA-ur-C1D" id="rWB-c6-mJU"/>
+                        <segue destination="QlR-Zw-Kxr" kind="show" identifier="GoApp" id="GsE-KQ-ooY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j51-r5-n6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8a8-ai-U79">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BDf-FV-CYP" id="XGs-EV-ls3"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="842-El-9Iy">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BDf-FV-CYP" id="Wu9-RY-894"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="44" y="135"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="LifeHacks_1" width="341" height="341"/>
-        <image name="LifeHacks_splash" width="360" height="640"/>
-        <image name="bg" width="414" height="736"/>
-        <image name="calendar" width="32" height="32"/>
-        <image name="crossIcon1" width="20" height="20"/>
-        <image name="goldPlace" width="21" height="21"/>
-        <image name="heart" width="32" height="32"/>
-        <image name="new_icon" width="33" height="33"/>
-        <image name="settings" width="32" height="32"/>
-        <image name="silverPlace" width="21" height="21"/>
+        <image name="LifeHacks_1" width="1024" height="1024"/>
+        <image name="LifeHacks_splash" width="1080" height="1920"/>
+        <image name="bg" width="1242" height="2323"/>
+        <image name="calendar" width="72" height="72"/>
+        <image name="crossIcon1" width="8" height="8"/>
+        <image name="goldPlace" width="48" height="48"/>
+        <image name="heart" width="72" height="72"/>
+        <image name="new_icon" width="75" height="75"/>
+        <image name="settings" width="72" height="72"/>
+        <image name="silverPlace" width="200.34782409667969" height="200.34782409667969"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="n6I-OG-LJT"/>

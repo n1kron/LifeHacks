@@ -124,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1BE1E8F42161735C007D2E4C /* Analytics.swift */,
+				99C20EAE21496426002E7F95 /* OnboardingViewController.swift */,
 				1BE1E8F22161735C007D2E4C /* BuySubscriptionViewController.swift */,
 				1BE1E8F32161735C007D2E4C /* SubscriptionManager.swift */,
 				1BE1E8F62161735C007D2E4C /* SwiftLoader.swift */,
@@ -259,7 +260,6 @@
 				99C0C04E2145E5A1000AF5BC /* FavoriteViewController.swift */,
 				99C0C0502145E5AF000AF5BC /* SettingsViewController.swift */,
 				99C0C05A2146CCA9000AF5BC /* DetailHackViewController.swift */,
-				99C20EAE21496426002E7F95 /* OnboardingViewController.swift */,
 				99C20EB021496C77002E7F95 /* NewHacksViewController.swift */,
 			);
 			path = ViewControllers;

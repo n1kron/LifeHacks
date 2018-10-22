@@ -49,11 +49,6 @@ extension NewHacksViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        if SubscriptionManager.shared.isSubscriptionActive != true {
-            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-            self.present(storyboard.instantiateViewController(withIdentifier: "BuySubscriptionController"), animated: true, completion: nil)
-        } else {
-            performSegue(withIdentifier: "ShowLifeHack", sender: LifeHacksData.shared.newList[indexPath.row])
-        }
+        performSegue(withIdentifier: "ShowLifeHack", sender: LifeHacksData.shared.newList[indexPath.row])
     }
 }
